@@ -25,7 +25,7 @@
 
 1️⃣ *Clone or download the repository*
 
-2️⃣ *Open it on your IDE (must have Python 3.X installed)*
+2️⃣ *Open it on your IDE (must have Java 11 and Gradle 6.6 or 7.0 installed)*
 
 5️⃣ *Run the project on the IDE*
 
