@@ -61,11 +61,6 @@ You will have these options for services or requests to the server, you will be 
       - !: Command entered to execute in Terminal Linux.
       - exit: Enter the word exit through the console, without selecting a number, to end the execution of the program.
 
-## ***Summary*** ✉️
-
-*Looking forward to developing a multimedia platform that recommends songs based on the tastes of the users themselves, we seek to determine what type of algorithm would be ideal for this task. Therefore, we will rely on different techniques and methods such as K-Means Clustering, the CRISP-DM method, and several more. In the data analysis, the most relevant thing was to find the correlations of the different datasets that we handled, this allowed us to reach coherent results in comparison with existing information on the Internet, such as the fact that there is a high correlation between the popularity and the year of launch of the song as well as the popularity and the acoustics of the songs. With what has been achieved, we can ensure that the platform will: improve the user experience, improve the recommendation process and reduce the rate of abandonment of platform users.*
-
-*For more information regarding tecniques and methods used to build this Music Recommendation Platform based on user's musical linking, please check [documentation](https://github.com/danielaolartebo/IA-music-recommendation-project/blob/main/IA_Entrega_1_Olarte_Daniela_Pantoja_Carlos_Caicedo_Juan_Tafurt_Carlos.pdf)*
 
 ## ***Authors*** ✒️
 
