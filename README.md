@@ -32,9 +32,9 @@
 ## ***Detailed Instructions*** 📦
 
 1. Enter via SSH protocol to machine 11, 15 and 16 (hgrid11, hgrid15, hgrid16).
-      Command: ssh sarch@hgrid11
-      Command: ssh sarch@hgrid15
-      Command: ssh sarch@hgrid16
+      Command: ssh swarch@hgrid11
+      Command: ssh swarch@hgrid15
+      Command: ssh swarch@hgrid16
     
 2. Enter the Paz-Olarte directory on each of the machines.
 
