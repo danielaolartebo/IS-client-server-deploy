@@ -32,26 +32,38 @@
 ## ***Detailed Instructions*** 📦
 
 1. Enter via SSH protocol to machine 11, 15 and 16 (hgrid11, hgrid15, hgrid16).
-      Command: ssh swarch@hgrid11
-      Command: ssh swarch@hgrid15
-      Command: ssh swarch@hgrid16
+```bash
+ssh swarch@hgrid11
+ssh swarch@hgrid15
+ssh swarch@hgrid16
+```
     
-2. Enter the Paz-Olarte directory on each of the machines.
+3. Enter the Paz-Olarte directory on each of the machines.
 
-3. Get to the helloworld directory.
-      Command: cd helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte/helloworld-ret/helloworld-ret
+4. Get to the helloworld directory.
+```bash
+cd helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte/helloworld-ret/helloworld-ret
+```
 
-4. We build the project from the source code, from the server machine.
-      Command: ./gradlew build
+6. Build the project from the source code, from the server machine.
+```bash
+./gradlew build
+```
     
-5. On one of the machines selected in point 1, we connect to the server.
-      Command: java -jar server/build/libs/server.jar
+8. On one of the machines selected in step 1, connect to the server.
+```bash
+java -jar server/build/libs/server.jar
+```
     
-6. We build the project from the source code, from the clients' machine.
-      Command: ./gradlew build
+10. Build the project from the source code, from the clients' machine.
+```bash
+./gradlew build
+```
 
-7. On the remaining two machines, we connect to the client.
-      Command: java -jar client/build/libs/client.jar
+12. On the remaining two machines, connect to the client.
+```bash
+java -jar client/build/libs/client.jar
+```
 
 6. By executing the commands on the respective machines, on which they were selected as clients,
 You will have these options for services or requests to the server, you will be able to execute each one depending on the respective number you have.
