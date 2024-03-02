@@ -40,9 +40,11 @@ ssh swarch@hgrid16
     
 3. Enter the Paz-Olarte directory on each of the machines.
 
-4. Get to the helloworld directory.
+4. Get to the helloworld directory and allow permission to the directory.
 ```bash
 cd helloworld-ciclo-kbd-SebastianPaz-DanielaOlarte/helloworld-ret/helloworld-ret
+
+chmod +x gradlew
 ```
 
 6. Build the project from the source code, from the server machine.
@@ -67,12 +69,29 @@ java -jar client/build/libs/client.jar
 
 6. By executing the commands on the respective machines, on which they were selected as clients,
 You will have these options for services or requests to the server, you will be able to execute each one depending on the respective number you have.
-      - Fibonacci: Execute fibonacci from a number entered by CLI.
-      - Lists: List of server interfaces.
-      - Listports: List of ports from an IPv4 entered by CLI
-      - !: Command entered to execute in Terminal Linux.
+      - Fibonacci: Execute fibonacci from a number entered by CLI. (Shows fibonacci algorithm)
+      - Lists: List of server interfaces. (Lists logic interfaces that the server has)
+      - Listports: List of ports from an IPv4 entered by CLI (Lists open ports and ports that are running in the specified IP and shows services)
+      - !: Command entered to execute in Terminal Linux. (Any command with Unix type)
       - exit: Enter the word exit through the console, without selecting a number, to end the execution of the program.
 
+
+## ***Other commands*** 📦
+
+- Transfer files (fuente-destino)
+```bash
+scp swarch@xhgrid16:nameofdirectory swarch@xhgrid11:nameofdirectory
+swarch@xhgrid11: scp ./ejem.txt swarch@xhgrid16:train
+```
+- Create files in a directory
+```bash
+touch example.txt
+touch example.zip
+```
+- Connect to a machine
+```bash
+ssh swarch@xhgrid11
+```
 
 ## ***Authors*** ✒️
 
