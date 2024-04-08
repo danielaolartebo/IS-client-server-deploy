@@ -92,6 +92,14 @@ touch example.zip
 ```bash
 ssh swarch@xhgrid11
 ```
+- Change to Java 11
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home -v11)
+```
+- Build with bash
+```bash
+bash ./gradlew build
+```
 
 ## ***Authors*** ✒️
 
