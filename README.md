@@ -101,6 +101,11 @@ export JAVA_HOME=$(/usr/libexec/java_home -v11)
 bash ./gradlew build
 ```
 
+- Slice2java
+```bash
+slice2java nombredearchivo
+```
+
 ## ***Authors*** ✒️
 
 <p align="left">
